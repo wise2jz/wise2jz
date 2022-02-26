@@ -1,7 +1,7 @@
 <h1 align="center">
   <b>Ah2devio Studios</b>
 </h1>
-Hi, I'm Ahmed Mohamed, a student currently living in Cairo, Egypt. I've been learning programming since I was seven and, I studied for four years in the USA, Soon I will get the PCAP certification,and I won Japan Robot Tournament. I 'm currently preparing to launch an Encrypting Algorithm Called
+Hi, I'm Ahmed Mohamed, a student currently living in Cairo, Egypt. I've been learning programming since I was seven, Soon I will get the PCAP certification. I'm currently preparing to launch an Encrypting Algorithm Called
 <a href="">Ultimate Crypt</a>, this Algorithm is faster and stronger than <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a> and breaking it might be impossible.
 <p>
 <div align="center">
