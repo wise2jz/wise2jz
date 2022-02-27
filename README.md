@@ -60,7 +60,13 @@ class Ah2devio():
 </p>
 <br>
 
-[![Ah2devio' Activity Graph](https://activity-graph.herokuapp.com/graph?username=ah2devio&custom_title=Ah2devio%20%20Contribution%20Graph&theme=gruvbox&bg_color=282828&hide_border=true&line=d1a01f&point=c58545)]()
+----
+## Specs
+<div align="left">
+<p>CPU:AMD Ryzen 9 3900x</p>
+<p>GPU:GeForce RTX 2080 Ti GAMING X TRIO</p>
+<p>RAM:Corsair VENGEANCE RGB PRO 32GB</p>  
+</div>
 
 ------
 <div align="center">
