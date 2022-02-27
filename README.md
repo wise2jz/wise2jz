@@ -63,9 +63,9 @@ class Ah2devio():
 ----
 ## Specs
 <div align="left">
-<p>CPU:AMD Ryzen 9 3900x</p>
-<p>GPU:GeForce RTX 2080 Ti GAMING X TRIO</p>
-<p>RAM:Corsair VENGEANCE RGB PRO 32GB</p>  
+<p>CPU: AMD Ryzen 9 3900x</p>
+<p>GPU: GeForce RTX 2080 Ti GAMING X TRIO</p>
+<p>RAM: Corsair VENGEANCE RGB PRO 32GB</p>  
 </div>
 
 ------
