@@ -70,5 +70,5 @@ class Ah2devio():
 
 ------
 <div align="center">
-Thank's For Reading 
+  <p>Thank's For Reading ❤</p>  
 </div>
