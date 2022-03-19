@@ -22,7 +22,6 @@ Hi, I'm Ah2devio. I'm currently preparing to launch an Encrypting Algorithm Call
   <img src="https://img.shields.io/badge/OpenGL-FFFFFF?style=for-the-badge&logo=opengl">
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white">
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white">
   <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white">
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
@@ -39,7 +38,6 @@ class Ah2devio():
     self.username = "ah2devio"
     self.location = "Cairo, Egypt"
     self.twitter = "@ah2devio"
-    self.bio = "my brain like a computer"
   
   def __str__(self):
     return self.name
