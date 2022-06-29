@@ -38,6 +38,7 @@ class Ah2devio():
     self.username = "ah2devio"
     self.location = "Cairo, Egypt"
     self.twitter = "@ah2devio"
+    self.alert = "Not Main Account"
   
   def __str__(self):
     return self.name
