@@ -34,7 +34,7 @@ Hi, I'm Ah2devio. I'm currently preparing to launch an Encrypting Algorithm Call
 class Ah2devio():
     
   def __init__(self):
-    self.name = "Ahmed Mohamed"
+    self.name = "Ahmed"
     self.username = "ah2devio"
     self.location = "Cairo, Egypt"
     self.twitter = "@ah2devio"
