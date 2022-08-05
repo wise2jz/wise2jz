@@ -60,7 +60,7 @@ class Ah2devio():
 <br>
 
 ----
-## Specs
+## PC Specs
 <div align="left">
 <p>CPU: AMD Ryzen 9 3900x</p>
 <p>GPU: GeForce RTX 2080 Ti GAMING X TRIO</p>
