@@ -1,7 +1,7 @@
 <h1 align="center">
   <b>Ah2devio Studios</b>
 </h1>
-Hi, I'm Ah2devio. I'm currently preparing to launch an Encrypting Algorithm Called
+Hi, I'm Ah2devio. I'm currently developing an Encrypting Algorithm Called
 <a href="">Ultimate Crypt</a>, this Algorithm is faster and stronger than <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a> and breaking it might be impossible.
 <p>
 <div align="center">
