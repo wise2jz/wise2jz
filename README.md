@@ -1,9 +1,6 @@
 <h1 align="center">
   <b>Ah2devio Studios</b>
 </h1>
-Hi, I'm Ah2devio. I'm currently developing an Encrypting Algorithm Called
-<a href="">Ultimate Crypt</a>, this Algorithm is faster and stronger than <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a> and breaking it might be impossible.
-<p>
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
