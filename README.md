@@ -38,12 +38,6 @@ class Ah2devio():
   def __str__(self):
     return self.name
 ```
------
-<div align="center">
-  
-</div>
-
-----
 
 ------
 <div align="center">
