@@ -43,24 +43,7 @@ class Ah2devio():
   
 </div>
 
-## My Statistics
-
-<br/>
-<p align="left">
-  <a href="">
-  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=ah2devio&show_icons=true&theme=gruvbox&hide_border=true" />
-    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=ah2devio&theme=gruvbox&hide_border=true" />
-  </a>
-</p>
-<br>
-
 ----
-## PC Specs
-<div align="left">
-<p>CPU: AMD Ryzen 9 3900x</p>
-<p>GPU: GeForce RTX 2080 Ti GAMING X TRIO</p>
-<p>RAM: Corsair VENGEANCE RGB PRO 32GB</p>  
-</div>
 
 ------
 <div align="center">
