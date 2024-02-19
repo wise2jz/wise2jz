@@ -29,11 +29,9 @@
 class Ah2devio():
     
   def __init__(self):
-    self.name = "Ahmed"
     self.username = "ah2devio"
-    self.location = "Cairo, Egypt"
-    self.twitter = "@ah2devio"  
+    self.location = "Earth"
   def __str__(self):
-    return self.name
+    return self.username
 ```
 
