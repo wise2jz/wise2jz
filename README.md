@@ -24,7 +24,6 @@
 
 ```python
 class me():
-    
   def __init__(self):
     self.username = "ah2devio"
     self.location = "Earth"
