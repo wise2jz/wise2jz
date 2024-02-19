@@ -37,7 +37,3 @@ class Ah2devio():
     return self.name
 ```
 
-------
-<div align="center">
-  <p>Thank's For Reading ❤</p>  
-</div>
