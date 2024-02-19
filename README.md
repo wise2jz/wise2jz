@@ -26,7 +26,7 @@
 </p>
 
 ```python
-class ah2devio():
+class me():
     
   def __init__(self):
     self.username = "ah2devio"
