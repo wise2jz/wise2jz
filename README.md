@@ -21,8 +21,7 @@
 ```asm
 section .data
     username db "ah2devio", 0   ; Define username string
-    location db "Earth", 0      ; Define location string
-    fav db "EVO IX", 0             ; Define favorite string
+    fav db "EVO IX", 0          ; Define favorite string
     newline db 0xA              ; Newline character
 
 section .text
@@ -43,33 +42,12 @@ _start:
     mov edx, 1
     int 0x80
 
-    ; Print the location
-    mov eax, 4                  ; sys_write
-    mov ebx, 1                  ; file descriptor (stdout)
-    mov ecx, location           ; address of location
-    mov edx, 5                  ; length of the location string
-    int 0x80                    ; call kernel
-
-    ; Print a newline
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, newline
-    mov edx, 1
-    int 0x80
-
     ; Print the favorite
     mov eax, 4                  ; sys_write
     mov ebx, 1                  ; file descriptor (stdout)
     mov ecx, fav                ; address of favorite
-    mov edx, 3                  ; length of the favorite string
+    mov edx, 7                  ; length of the favorite string ("EVO IX")
     int 0x80                    ; call kernel
-
-    ; Print a newline
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, newline
-    mov edx, 1
-    int 0x80
 
     ; Exit the program
     mov eax, 1                  ; sys_exit
