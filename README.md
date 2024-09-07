@@ -46,7 +46,7 @@ _start:
     mov eax, 4                  ; sys_write
     mov ebx, 1                  ; file descriptor (stdout)
     mov ecx, fav                ; address of favorite
-    mov edx, 7                  ; length of the favorite string ("EVO IX")
+    mov edx, 7                  ; length of the favorite string 
     int 0x80                    ; call kernel
 
     ; Exit the program
