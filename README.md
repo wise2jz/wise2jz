@@ -19,41 +19,19 @@
 </p>
 
 ```asm
-section .data
-    username db "ah2devio", 0   ; Define username string
-    fav db "EVO IX", 0          ; Define favorite string
-    newline db 0xA              ; Newline character
+section	.text
+	global _start       
+_start:             ;entry point
+	mov	edx, len    ;message length
+	mov	ecx, msg    ;message to write
+	mov	ebx, 1	    ;file descriptor (stdout)
+	mov	eax, 4	    ;system call number (sys_write)
+	int	0x80        ;call kernel
+	mov	eax, 1	    ;system call number (sys_exit)
+	int	0x80        ;call kernel
 
-section .text
-    global _start
-
-_start:
-    ; Print the username
-    mov eax, 4                  ; sys_write
-    mov ebx, 1                  ; file descriptor (stdout)
-    mov ecx, username           ; address of username
-    mov edx, 8                  ; length of the username
-    int 0x80                    ; call kernel
-
-    ; Print a newline
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, newline
-    mov edx, 1
-    int 0x80
-
-    ; Print the favorite
-    mov eax, 4                  ; sys_write
-    mov ebx, 1                  ; file descriptor (stdout)
-    mov ecx, fav                ; address of favorite
-    mov edx, 7                  ; length of the favorite string 
-    int 0x80                    ; call kernel
-
-    ; Exit the program
-    mov eax, 1                  ; sys_exit
-    xor ebx, ebx                ; status 0
-    int 0x80
-
-
+section	.data
+msg	db	'Fav: EVO IX',0xa	;our dear string
+len	equ	$ - msg			;length of our dear string
 ```
 
