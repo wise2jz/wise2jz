@@ -32,6 +32,6 @@ _start:                 ;entry point
 
 section	.data
 msg db 'Fav: EVO IX',0xa ;our dear string
-len equ	$ - msg	 ;length of our dear string
+len equ	$ - msg	         ;length of our dear string
 ```
 
