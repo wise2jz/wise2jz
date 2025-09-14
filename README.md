@@ -1,4 +1,4 @@
-# Wise — Space Systems Engineer
+# Ahmed — Space Systems Engineer
 
 <p align="center">
   <!-- Hero badges -->
