@@ -12,19 +12,72 @@
 </p>
 
 ```asm
-section	.text
-	global _start       
-_start:                 ;entry point
-	mov edx, len    ;message length
-	mov ecx, msg    ;message to write
-	mov ebx, 1	;file descriptor (stdout)
-	mov eax, 4	;system call number (sys_write)
-	int 0x80        ;call kernel
-	mov eax, 1	;system call number (sys_exit)
-	int 0x80        ;call kernel
+# Apollo 11 LM AGC — Final Descent and Touchdown
+# Luminary 1A build 099 (Public Domain)
+# Purpose: Initialize descent engine burns and confirm landing
+# Assembler: yaYUL | Source: www.ibiblio.org/apollo
 
-section	.data
-msg db 'Fav: EVO IX',0xa ;our dear string
-len equ	$ - msg	         ;length of our dear string
+# -----------------------------
+# IGNITION & BURN SETUP (P63)
+# -----------------------------
+
+P63LM   TC      PHASCHNG
+        OCT     04024
+
+        TC      BANKCALL        # IMU status check
+        CADR    R02BOTH
+
+        CAF     P63ADRES        # Initialize for BURNBABY
+        TS      WHICH
+
+        CAF     DPSTHRSH        # Setup Delta-V monitor
+        TS      DVTHRUSH
+        CAF     FOUR
+        TS      DVCNTR
+
+        CS      ONE             # Init phase tracking
+        TS      WCHPHASE
+        CA      ZERO
+        TS      FLPASS0
+
+        TC      POSTJUMP        # Off to the burn sequence
+        CADR    BURNBABY
+
+# -----------------------------
+# LANDING CONFIRMATION (P68)
+# -----------------------------
+
+LANDJUNK TC     PHASCHNG
+         OCT    04024
+
+         INHINT
+         TC     BANKCALL        # Zero out attitude errors
+         CADR   ZATTEROR
+
+         TC     BANKCALL        # Set 5-degree deadband
+         CADR   SETMAXDB
+
+         TC     INTPRET
+         SET    CLEAR
+             SURFFLAG
+             LETABORT
+         SET    VLOAD
+             APSFLAG
+             RN
+
+         SET    CALL            # Mark lunar touchdown
+             LUNAFLAG
+             LAT-LONG
+
+         CAF    V06N43*         # Astronaut: "Now look where you ended up"
+         TC     BANKCALL
+         CADR   GOFLASH
+
+         TCF    GOTOPOOH        # Terminate (Touchdown complete)
+
+# -----------------------------
+# End of Touchdown Sequence
+# -----------------------------
+
 ```
 
