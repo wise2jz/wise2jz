@@ -21,7 +21,7 @@
 ## Core skills
 
 - Firmware: low-level C, deterministic RTOS design, hardware bring-up.  
-- PCB design: schematic capture, multi-layer layout, DFM and signal integrity considerations.  
+- PCB design: schematic capture, mid- to pre-advanced multi-layer layouts, with growing focus on manufacturability and signal-integrity practices.  
 - Avionics: telemetry, fault containment, power and sensor systems.  
 - Systems: requirements-driven architecture, HIL, automated regression testing.  
 - Embedded project management: firmware lifecycle, milestone planning, risk management for hardware projects.  
