@@ -79,10 +79,7 @@
 
 ### Cognition, Learning & Research
 
-- I study psychology and neuroscience to develop cognitive capability and improve engineering performance.  
-- Focus areas: learning processes, cognitive function at psychological and cortical levels, and applied methods to enhance skill acquisition.  
-- I research applied neuroscience, cognitive training methods, and the psychology of education.  
-- I apply human-factors and behavioral science to crew interfaces and mission design.  
+- Research in applied neuroscience and psychology of education, with focus on crew cognition, skill acquisition, and mission performance.
 - I research space sustainability, interplanetary mission architectures, and lunar habitation systems.
 
 ---
