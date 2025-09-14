@@ -15,7 +15,7 @@
 
 ## About
 
-- Research, design, and development of space systems with focus on flight hardware and software.  
+- Research, design, and development of space systems, with emphasis on flight hardware and software.  
 - Emphasis on evidence-driven design, reproducible toolchains, and test harness integration.  
 
 ## Core Skills
@@ -69,7 +69,7 @@
   <img src="https://img.shields.io/badge/UART-343434?style=for-the-badge" alt="UART"/>
   <img src="https://img.shields.io/badge/SPI-204060?style=for-the-badge" alt="SPI"/>
   <img src="https://img.shields.io/badge/I2C-005A9C?style=for-the-badge" alt="I2C"/>
-  <img src="https://img.shields.io/badge/RS232-333333?style=for-the-badge" alt="RS-232"/>
+  <img src="https://img.shields.io/badge/RS--232-333333?style=for-the-badge" alt="RS-232"/>
   <img src="https://img.shields.io/badge/CAN-FF9900?style=for-the-badge" alt="CAN"/>
   <img src="https://img.shields.io/badge/SpaceWire-0A84FF?style=for-the-badge" alt="SpaceWire"/>
   <img src="https://img.shields.io/badge/CCSDS-0076A8?style=for-the-badge" alt="CCSDS"/>
@@ -82,5 +82,3 @@
 - Human factors: cognition, learning, and skill acquisition for crew performance.  
 - Psychology of education and applied neuroscience for mission training.  
 - Space systems research: sustainability, interplanetary mission design, and lunar habitation.  
-
----
