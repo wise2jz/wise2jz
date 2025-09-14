@@ -7,9 +7,6 @@
 <img src="https://img.shields.io/badge/Systems%20Engineering-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/Embedded%20Systems-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white">
-<img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
-
   
 </div>
 </p>
