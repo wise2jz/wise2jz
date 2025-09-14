@@ -16,47 +16,35 @@
 # Luminary 1A build 099 (Public Domain)
 # Purpose: Initialize descent engine burns and confirm landing
 # Assembler: yaYUL | Source: www.ibiblio.org/apollo
-
 # -----------------------------
 # IGNITION & BURN SETUP (P63)
 # -----------------------------
-
 P63LM   TC      PHASCHNG
         OCT     04024
-
         TC      BANKCALL        # IMU status check
         CADR    R02BOTH
-
         CAF     P63ADRES        # Initialize for BURNBABY
         TS      WHICH
-
         CAF     DPSTHRSH        # Setup Delta-V monitor
         TS      DVTHRUSH
         CAF     FOUR
         TS      DVCNTR
-
         CS      ONE             # Init phase tracking
         TS      WCHPHASE
         CA      ZERO
         TS      FLPASS0
-
         TC      POSTJUMP        # Off to the burn sequence
         CADR    BURNBABY
-
 # -----------------------------
 # LANDING CONFIRMATION (P68)
 # -----------------------------
-
 LANDJUNK TC     PHASCHNG
          OCT    04024
-
          INHINT
          TC     BANKCALL        # Zero out attitude errors
          CADR   ZATTEROR
-
          TC     BANKCALL        # Set 5-degree deadband
          CADR   SETMAXDB
-
          TC     INTPRET
          SET    CLEAR
              SURFFLAG
@@ -64,17 +52,13 @@ LANDJUNK TC     PHASCHNG
          SET    VLOAD
              APSFLAG
              RN
-
          SET    CALL            # Mark lunar touchdown
              LUNAFLAG
              LAT-LONG
-
          CAF    V06N43*         # Astronaut: "Now look where you ended up"
          TC     BANKCALL
          CADR   GOFLASH
-
          TCF    GOTOPOOH        # Terminate (Touchdown complete)
-
 # -----------------------------
 # End of Touchdown Sequence
 # -----------------------------
