@@ -75,11 +75,6 @@
   <img src="https://img.shields.io/badge/CCSDS-standards-0076A8?style=for-the-badge" alt="CCSDS"/>
 </p>
 
-- UART, SPI, I2C, RS-232: onboard and board-to-board telemetry and command links.  
-- CAN: in-vehicle networks and proven fault-tolerant messaging.  
-- SpaceWire: high-speed spacecraft on-board data handling.  
-- CCSDS: mission-level telemetry/telecommand formatting and space data standards.
-
 ---
 
 ### Cognition, Learning & Research
