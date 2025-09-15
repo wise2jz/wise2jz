@@ -73,5 +73,5 @@
 ## Applied Research
 
 - Human factors: cognition, learning, and skill acquisition for crew performance.  
-- Psychology of education and applied neuroscience for mission training.  
+- Psychology of education and applied neuroscience.  
 - Space systems research: sustainability, interplanetary mission design, and lunar habitation.  
