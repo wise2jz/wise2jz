@@ -28,14 +28,6 @@
 - Critical software: safety- and mission-critical development, verification, and traceability.  
 - Reusable architectures: modular firmware and hardware patterns, libraries, and interfaces.  
 
-## Engineering Practices
-
-- Requirements flow-down and traceability across hardware and software.  
-- Systems engineering for integrated avionics and flight hardware.  
-- Hardware-in-the-loop (HIL) and mission simulation for validation.  
-- Deterministic, non-blocking software architectures for real-time systems.  
-- Telemetry-first verification for flight and ground systems.   
-
 ## Tools & Platforms
 
 <p align="left">
