@@ -30,10 +30,11 @@
 
 ## Engineering Practices
 
-- Requirements traceability and test-first development.  
-- FMEA-driven design reviews and risk mitigation.  
-- Continuous integration for builds and regression testing.  
-- Deterministic timing, non-blocking architectures, and telemetry-focused verification.  
+- Requirements flow-down and traceability across hardware and software.  
+- Systems engineering for integrated avionics and flight hardware.  
+- Hardware-in-the-loop (HIL) and mission simulation for validation.  
+- Deterministic, non-blocking software architectures for real-time systems.  
+- Telemetry-first verification for flight and ground systems.   
 
 ## Tools & Platforms
 
