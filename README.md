@@ -26,6 +26,7 @@
 - Avionics: telemetry pipelines (CCSDS framing), power distribution, watchdog-based fault recovery.
 - Systems: requirements decomposition, HIL validation loops, CI-driven regression testing.
 - Critical software: MISRA C–compliant development, DO-178C-aligned practices.
+
 ## Tools & Platforms
 
 <p align="left">
@@ -52,8 +53,6 @@
   </a>
 </p>
 
----
-
 ## Communication Protocols
 
 <p align="left">
@@ -65,8 +64,6 @@
   <img src="https://img.shields.io/badge/SpaceWire-0A84FF?style=for-the-badge" alt="SpaceWire"/>
   <img src="https://img.shields.io/badge/CCSDS-0076A8?style=for-the-badge" alt="CCSDS"/>
 </p>
-
----
 
 ## Applied Research
 
