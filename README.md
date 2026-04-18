@@ -1,5 +1,4 @@
 # Ahmed — Space Systems Engineer
-<br>
 <p align="center">
   <!-- Core identity badges -->
   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
