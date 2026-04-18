@@ -25,7 +25,7 @@
 - PCB design: high-speed layout constraints, power integrity, EMI-aware routing.
 - Avionics: telemetry pipelines (CCSDS framing), power distribution, watchdog-based fault recovery.
 - Systems: requirements decomposition, HIL validation loops, CI-driven regression testing.
-- Critical software: MISRA C–compliant development, DO-178C-aligned practices (requirements traceability, verification, and test coverage).
+- Critical software: MISRA C–compliant development, DO-178C-aligned practices.
 ## Tools & Platforms
 
 <p align="left">
