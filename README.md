@@ -25,7 +25,7 @@
 - Avionics: telemetry, power systems, and fault containment.  
 - Systems: requirements-driven architecture, HIL testing, automated regression.  
 - Project management: firmware lifecycle, milestone planning, and hardware risk management.  
-- Critical software: safety- and mission-critical development, verification, and traceability.  
+- Critical software: MISRA C compliance, DO-178C–driven development, verification, and traceability.  
 - Reusable architectures: modular firmware and hardware patterns, libraries, and interfaces.  
 
 ## Tools & Platforms
