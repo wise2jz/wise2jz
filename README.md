@@ -1,5 +1,5 @@
 # Ahmed — Space Systems Engineer
-
+<br>
 <p align="center">
   <!-- Core identity badges -->
   <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -10,8 +10,6 @@
   <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </p>
-
----
 
 ## About
 
