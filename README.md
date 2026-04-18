@@ -15,19 +15,17 @@
 
 ## About
 
-- Research, design, and development of space systems, with emphasis on flight hardware and software.  
-- Emphasis on evidence-driven design, reproducible toolchains, and test harness integration.  
+- Space systems engineer focused on embedded avionics and flight software.
+- Designs deterministic firmware, integrates hardware/software stacks, and validates systems via HIL and simulation pipelines.
+- Emphasis on reproducibility, verification, and failure-tolerant architectures.
 
 ## Core Skills
 
-- Firmware: low-level C, deterministic RTOS design, hardware bring-up.  
-- PCB design: schematic capture and multi-layer layouts.  
-- Avionics: telemetry, power systems, and fault containment.  
-- Systems: requirements-driven architecture, HIL testing, automated regression.  
-- Project management: firmware lifecycle, milestone planning, and hardware risk management.  
-- Critical software: MISRA C compliance, DO-178C–driven development, verification, and traceability.  
-- Reusable architectures: modular firmware and hardware patterns, libraries, and interfaces.  
-
+- Firmware: bare-metal C, FreeRTOS scheduling, interrupt design, peripheral drivers.
+- PCB design: high-speed layout constraints, power integrity, EMI-aware routing.
+- Avionics: telemetry pipelines (CCSDS framing), power distribution, watchdog-based fault recovery.
+- Systems: requirements decomposition, HIL validation loops, CI-driven regression testing.
+- Critical software: MISRA C–compliant development, DO-178C-aligned practices (requirements traceability, verification, and test coverage).
 ## Tools & Platforms
 
 <p align="left">
