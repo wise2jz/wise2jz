@@ -1,7 +1,7 @@
 # Ahmed — Space Systems Engineer
 <p align="center">
   <!-- Core identity badges -->
-  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/RTOS-FreeRTOS-FF6C37?style=for-the-badge&logo=freertos&logoColor=white" alt="FreeRTOS"/>
   <img src="https://img.shields.io/badge/Orbital-STK-0A84FF?style=for-the-badge&logo=oracle&logoColor=white" alt="STK"/>
   <img src="https://img.shields.io/badge/Modeling-MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
